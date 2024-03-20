@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Authentication.BearerToken;
 using Microsoft.EntityFrameworkCore;
+using SignAndMarking.Models;
 
 namespace SignAndMarking.Data;
 
@@ -9,5 +10,7 @@ public class AppDbContext : DbContext
     {
         
     }
+
+    public DbSet<Category> Categories { get; set; }
     
 }

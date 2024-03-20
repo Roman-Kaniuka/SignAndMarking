@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="RD-233.13135.100">
+    <data-source name="DESKTOP-AOKJ4E4\MSSQLSERVER01" uuid="6f0716e7-d4aa-4bb0-a18f-b0f6c744880f">
+      <database-info product="Microsoft SQL Server" version="16.00.1110" jdbc-version="4.2" driver-name="JetBrains JDBC Driver for SQL Server" driver-version="1.0" dbms="MSSQL" exact-version="16.0.1110" exact-driver-version="1.0">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>ms-sso</auth-provider>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" qname="@">
+            <node kind="schema" qname="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="DESKTOP-AOKJ4E4\MSSQLSERVER01" uuid="9b522fc0-0325-449d-8c1e-b7d5558e4041">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MSSQL" />
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>ms-sso</auth-provider>
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>
