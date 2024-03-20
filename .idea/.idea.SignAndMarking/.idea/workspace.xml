@@ -9,15 +9,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1380ad1d-4f43-4cf9-83b0-5921a1a669db" name="Changes" comment="" />
+    <list default="true" id="1380ad1d-4f43-4cf9-83b0-5921a1a669db" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SignAndMarking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SignAndMarking/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/SignAndMarking.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/SignAndMarking.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.RazorAssemblyInfo.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.RazorAssemblyInfo.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.RazorAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.RazorAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/SignAndMarking.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/SignAndMarking.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/SignAndMarking.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/SignAndMarking.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/SignAndMarking.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/SignAndMarking.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2dwcLjWLPjfuK7w9ROzgRMPz6h3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,8 +47,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Launch Settings Profile.SignAndMarking: http.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -98,6 +122,8 @@
       <option name="presentableId" value="Default" />
       <updated>1710922529198</updated>
       <workItem from="1710922535008" duration="817000" />
+      <workItem from="1710925953014" duration="1353000" />
+      <workItem from="1710956629783" duration="766000" />
     </task>
     <servers />
   </component>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Р\\C#\\myProjecks\\Sign&Marking\\SignAndMarking\\SignAndMarking\\SignAndMarking.csproj": {}
+    "D:\\Р\\C#\\myProjecks\\SignAndMarking\\SignAndMarking\\SignAndMarking.csproj": {}
   },
   "projects": {
-    "D:\\Р\\C#\\myProjecks\\Sign&Marking\\SignAndMarking\\SignAndMarking\\SignAndMarking.csproj": {
+    "D:\\Р\\C#\\myProjecks\\SignAndMarking\\SignAndMarking\\SignAndMarking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Р\\C#\\myProjecks\\Sign&Marking\\SignAndMarking\\SignAndMarking\\SignAndMarking.csproj",
+        "projectUniqueName": "D:\\Р\\C#\\myProjecks\\SignAndMarking\\SignAndMarking\\SignAndMarking.csproj",
         "projectName": "SignAndMarking",
-        "projectPath": "D:\\Р\\C#\\myProjecks\\Sign&Marking\\SignAndMarking\\SignAndMarking\\SignAndMarking.csproj",
+        "projectPath": "D:\\Р\\C#\\myProjecks\\SignAndMarking\\SignAndMarking\\SignAndMarking.csproj",
         "packagesPath": "C:\\Users\\kaniu\\.nuget\\packages\\",
-        "outputPath": "D:\\Р\\C#\\myProjecks\\Sign&Marking\\SignAndMarking\\SignAndMarking\\obj\\",
+        "outputPath": "D:\\Р\\C#\\myProjecks\\SignAndMarking\\SignAndMarking\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kaniu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
