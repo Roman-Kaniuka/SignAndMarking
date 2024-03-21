@@ -10,66 +10,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1380ad1d-4f43-4cf9-83b0-5921a1a669db" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SignAndMarking/Controllers/CategoryController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignAndMarking/Views/Category/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignAndMarking/Views/Category/Create.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignAndMarking/Views/Category/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignAndMarking/Views/Category/Edit.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignAndMarking/Views/Category/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignAndMarking/Views/Category/Index.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SignAndMarking/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SignAndMarking/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SignAndMarking/.idea/dataSources/9b522fc0-0325-449d-8c1e-b7d5558e4041.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SignAndMarking/.idea/dataSources/9b522fc0-0325-449d-8c1e-b7d5558e4041.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SignAndMarking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SignAndMarking/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/Data/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/Data/AppDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/SignAndMarking.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/SignAndMarking.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/Models/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/Models/Category.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/Views/Shared/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.runtimeconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/ref/SignAndMarking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/ref/SignAndMarking.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/refint/SignAndMarking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/refint/SignAndMarking.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/staticwebassets.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/SignAndMarking.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/SignAndMarking.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/SignAndMarking.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/SignAndMarking.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +55,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2dwcLjWLPjfuK7w9ROzgRMPz6h3" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -105,6 +76,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
+    ],
     &quot;DatabaseDriversLRU&quot;: [
       &quot;sqlserver&quot;
     ],
@@ -173,7 +147,8 @@
       <workItem from="1710922535008" duration="817000" />
       <workItem from="1710925953014" duration="1353000" />
       <workItem from="1710956629783" duration="8281000" />
-      <workItem from="1710968283328" duration="227000" />
+      <workItem from="1710968283328" duration="830000" />
+      <workItem from="1711013593192" duration="19262000" />
     </task>
     <servers />
   </component>
