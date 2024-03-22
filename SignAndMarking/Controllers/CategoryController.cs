@@ -52,4 +52,46 @@ public class CategoryController : Controller
 
         return View(category);
     }
+    // POST
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public IActionResult Edit(Category category)
+    {
+        if (ModelState.IsValid)
+        {
+            _db.Categories.Update(category);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+        return View(category);
+    }
+    //GET
+    public IActionResult Delete(int? Id)
+    {
+        if (Id == null || Id == 0)
+        {
+            NotFound();
+        }
+
+        Category category = _db.Categories.Find(Id);
+        if (category == null)
+        {
+            return NotFound();
+        }
+        return View(category);
+    }
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public IActionResult DeletePost(int? Id)
+    {
+        var category = _db.Categories.Find(Id);
+        if (category == null)
+        {
+            return NotFound();
+        }
+        _db.Categories.Remove(category);
+        _db.SaveChanges();
+        return RedirectToAction("Index");
+    }
 }
