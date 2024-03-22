@@ -1,0 +1,48 @@
+@model SignAndMarking.Models.Feature
+
+
+<form method="post" asp-action="Create">
+    <div class="border p-3">
+        <div class="form-group row">
+            <h2 class="text-primary">Додати новий тип</h2>
+        </div>
+        
+        <div class="row">
+            <div class="col-8">
+                <div class="form-group row my-3">
+                    <div class="col-5">
+                        <label asp-for="Name" class="h5">Назва</label>
+                    </div>
+                    <div class="col-7">
+                        <input asp-for="Name" class="form-control"/>
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                </div>
+
+               
+                <div class="form-group row">
+                    <div class="col-9 offset-4 row">
+                        <div class="col">
+                            <button type="submit" class="btn btn-outline-primary w-100">Створити</button>
+                        </div>
+                        <div class="col">
+                            <a asp-action="Index" class="btn btn-outline-secondary w-100">Назад <i class="fa-solid fa-right-from-bracket"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                @* Keep this empty *@
+            </div>
+        </div>
+    </div>
+
+</form>
+
+@section Scripts {
+
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+
+}

@@ -10,21 +10,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1380ad1d-4f43-4cf9-83b0-5921a1a669db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SignAndMarking/Models/Feature.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignAndMarking/Controllers/FeatureController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignAndMarking/Views/Feature/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignAndMarking/Views/Feature/Create.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignAndMarking/Views/Feature/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignAndMarking/Views/Feature/Index.cshtml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SignAndMarking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SignAndMarking/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/Data/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/Data/AppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/Models/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/Models/Category.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/Models/Feature.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/Models/Feature.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/Views/Category/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/Views/Category/Create.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/Views/Category/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/Views/Category/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/Views/Shared/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.staticwebassets.runtime.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/ref/SignAndMarking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/ref/SignAndMarking.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/refint/SignAndMarking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/refint/SignAndMarking.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/staticwebassets.pack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/staticwebassets/msbuild.SignAndMarking.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/staticwebassets/msbuild.SignAndMarking.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,6 +151,7 @@
       <workItem from="1710968283328" duration="830000" />
       <workItem from="1711013593192" duration="23831000" />
       <workItem from="1711098247332" duration="1084000" />
+      <workItem from="1711100424174" duration="5502000" />
     </task>
     <servers />
   </component>

@@ -35,10 +35,10 @@
                     <td width="60%">@obj.Name</td>
                     <td class="text-center" width="20%">@obj.DisplayOrder</td>
 
-                    <td class="text-center float-end">
+                    <td>
                             
-                        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-                            <a asp-controller="Category" asp-action="Edit" asp-route-id="@obj.Id" type="button" class="btn btn-outline-primary"><i class="fa-solid fa-trash"></i>Редагувати</a>
+                        <div class="btn-group text-center float-end" role="group" aria-label="Basic mixed styles example">
+                            <a asp-controller="Category" asp-action="Edit" asp-route-id="@obj.Id" type="button" class="btn btn-outline-primary">Редагувати</a>
                             <a asp-controller="Category" asp-action="Delete" asp-route-id="@obj.Id" type="button" class="btn btn-outline-danger">Видалити</a>
                         </div>
                     </td>
@@ -50,7 +50,7 @@
     }
     else
     {
-        <p> No category exists.</p>
+        <p> Списо категорій пустий (No category exists)</p>
     }
 
 </div>
