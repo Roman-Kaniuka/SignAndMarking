@@ -10,34 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1380ad1d-4f43-4cf9-83b0-5921a1a669db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SignAndMarking/Controllers/CategoryController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignAndMarking/Views/Category/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignAndMarking/Views/Category/Create.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignAndMarking/Views/Category/Edit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignAndMarking/Views/Category/Edit.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignAndMarking/Views/Category/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignAndMarking/Views/Category/Index.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SignAndMarking/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SignAndMarking/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SignAndMarking/.idea/dataSources/9b522fc0-0325-449d-8c1e-b7d5558e4041.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SignAndMarking/.idea/dataSources/9b522fc0-0325-449d-8c1e-b7d5558e4041.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignAndMarking/Models/Feature.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SignAndMarking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SignAndMarking/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/Models/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/Models/Category.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/Data/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/Data/AppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/Views/Category/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/Views/Category/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/ref/SignAndMarking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/ref/SignAndMarking.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/refint/SignAndMarking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/refint/SignAndMarking.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/staticwebassets.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +135,8 @@
       <workItem from="1710925953014" duration="1353000" />
       <workItem from="1710956629783" duration="8281000" />
       <workItem from="1710968283328" duration="830000" />
-      <workItem from="1711013593192" duration="19262000" />
+      <workItem from="1711013593192" duration="23831000" />
+      <workItem from="1711098247332" duration="1084000" />
     </task>
     <servers />
   </component>

@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SignAndMarking",
+    "\\SignAndMarking\\Migrations"
   ],
-  "SelectedNode": "\\SignAndMarking.sln",
+  "SelectedNode": "\\SignAndMarking\\Migrations\\20240320205538_addCategoryToDataBase.cs",
   "PreviewInSolutionExplorer": false
 }
