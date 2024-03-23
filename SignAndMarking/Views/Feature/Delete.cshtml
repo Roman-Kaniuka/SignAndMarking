@@ -1,16 +1,16 @@
-@model SignAndMarking.Models.Category
+@model SignAndMarking.Models.Feature
 
 
 <form method="post" asp-action="DeletePost">
     <input asp-for="Id" hidden>
     <div class="border p-3">
         <div class="form-group row">
-            <h2 class="text-primary">Видалити категорію</h2>
+            <h2 class="text-primary">Видалити тип</h2>
         </div>
 
         <div class="row">
             <div class="col-8">
-                <div class="form-group row mt-3">
+                <div class="form-group row my-3">
                     <div class="col-5">
                         <label asp-for="Name" class="h5">Назва</label>
                     </div>
@@ -19,15 +19,7 @@
                     </div>
                 </div>
 
-                <div class="form-group row my-4">
-                    <div class="col-5">
-                        <label asp-for="DisplayOrder" class="h5">Порядок відображення</label>
-                    </div>
-                    <div class="col-7">
-                        <input asp-for="DisplayOrder" disabled  class="form-control"/>
-                    </div>
 
-                </div>
                 <div class="form-group row">
                     <div class="col-9 offset-4 row">
                         <div class="col">
@@ -45,5 +37,3 @@
         </div>
     </div>
 </form>
-
-

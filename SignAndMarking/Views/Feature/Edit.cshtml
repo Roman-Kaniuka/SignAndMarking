@@ -1,37 +1,29 @@
-@model SignAndMarking.Models.Category
+@model SignAndMarking.Models.Feature
 
 
-<form method="post" asp-action="DeletePost">
-    <input asp-for="Id" hidden>
+<form method="post" asp-action="Edit">
     <div class="border p-3">
         <div class="form-group row">
-            <h2 class="text-primary">Видалити категорію</h2>
+            <h2 class="text-primary">Редагувати тип</h2>
         </div>
-
+        
         <div class="row">
             <div class="col-8">
-                <div class="form-group row mt-3">
+                <div class="form-group row my-3">
                     <div class="col-5">
                         <label asp-for="Name" class="h5">Назва</label>
                     </div>
                     <div class="col-7">
-                        <input asp-for="Name" disabled class="form-control"/>
+                        <input asp-for="Name" class="form-control"/>
+                        <span asp-validation-for="Name" class="text-danger"></span>
                     </div>
                 </div>
 
-                <div class="form-group row my-4">
-                    <div class="col-5">
-                        <label asp-for="DisplayOrder" class="h5">Порядок відображення</label>
-                    </div>
-                    <div class="col-7">
-                        <input asp-for="DisplayOrder" disabled  class="form-control"/>
-                    </div>
-
-                </div>
+               
                 <div class="form-group row">
                     <div class="col-9 offset-4 row">
                         <div class="col">
-                            <button type="submit" class="btn btn-outline-danger w-100">Видалити</button>
+                            <button type="submit" class="btn btn-outline-primary w-100">Редагувати</button>
                         </div>
                         <div class="col">
                             <a asp-action="Index" class="btn btn-outline-secondary w-100">Назад <i class="fa-solid fa-right-from-bracket"></i></a>
@@ -44,6 +36,13 @@
             </div>
         </div>
     </div>
+
 </form>
 
+@section Scripts {
 
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+
+}
