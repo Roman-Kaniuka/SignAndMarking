@@ -10,11 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1380ad1d-4f43-4cf9-83b0-5921a1a669db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SignAndMarking/Views/Category/Delete.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignAndMarking/Views/Category/Delete.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignAndMarking/Views/Feature/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignAndMarking/Views/Feature/Delete.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignAndMarking/Views/Feature/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignAndMarking/Views/Feature/Edit.cshtml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SignAndMarking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SignAndMarking/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/Controllers/CategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/Controllers/CategoryController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/Views/Category/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/Views/Category/Edit.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/Controllers/FeatureController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/Controllers/FeatureController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/Views/Category/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/Views/Category/Delete.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.pdb" afterDir="false" />
@@ -38,7 +40,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/Р/C#/myProjecks/SignAndMarking/SignAndMarking/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Р/C#/myProjecks/SignAndMarking/SignAndMarking/Controllers/FeatureController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Р/C#/myProjecks/SignAndMarking/SignAndMarking/Views/Category/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Р/C#/myProjecks/SignAndMarking/SignAndMarking/obj/Debug/net8.0/SignAndMarking.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -140,7 +144,8 @@
       <workItem from="1710968283328" duration="830000" />
       <workItem from="1711013593192" duration="23831000" />
       <workItem from="1711098247332" duration="1084000" />
-      <workItem from="1711100424174" duration="12008000" />
+      <workItem from="1711100424174" duration="14605000" />
+      <workItem from="1711193497406" duration="3517000" />
     </task>
     <servers />
   </component>

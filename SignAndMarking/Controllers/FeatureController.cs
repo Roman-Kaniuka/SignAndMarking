@@ -37,4 +37,57 @@ public class FeatureController : Controller
         }
         return View(feature);
     }
+    //GET
+    public IActionResult Edit(int? Id)
+    {
+        if (Id == null || Id == 0)
+        {
+            return NotFound();
+        }
+
+        var feature = _db.Features.Find(Id);
+        if (feature == null)
+        {
+            return NotFound();
+        }
+        return View(feature);
+    }
+    //POST
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public IActionResult Edit(Feature feature)
+    {
+        if (ModelState.IsValid)
+        {
+            _db.Features.Update(feature);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+        return View(feature);
+    }
+    //GET
+    public IActionResult Delete(int Id)
+    {
+        if (Id == null || Id == 0)
+        {
+            return NotFound();
+        }
+        var feature = _db.Features.Find(Id);
+        return View(feature);
+    }
+
+    //POST
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public IActionResult DeletePost(int? Id)
+    {
+        if (Id == null || Id == 0)
+        {
+            return NotFound();
+        }
+        var feature = _db.Features.Find(Id);
+        _db.Features.Remove(feature);
+        _db.SaveChanges();
+        return RedirectToAction("Index");
+    }
 }
