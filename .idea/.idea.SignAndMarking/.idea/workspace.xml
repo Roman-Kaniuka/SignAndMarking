@@ -10,26 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1380ad1d-4f43-4cf9-83b0-5921a1a669db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SignAndMarking/Views/Feature/Delete.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignAndMarking/Views/Feature/Delete.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignAndMarking/Views/Feature/Edit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignAndMarking/Views/Feature/Edit.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignAndMarking/Models/Product.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SignAndMarking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SignAndMarking/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignAndMarking/Controllers/FeatureController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/Controllers/FeatureController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/Views/Category/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/Views/Category/Delete.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/bin/Debug/net8.0/SignAndMarking.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/SignAndMarking.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/ref/SignAndMarking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/ref/SignAndMarking.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/refint/SignAndMarking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/obj/Debug/net8.0/refint/SignAndMarking.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignAndMarking/Data/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignAndMarking/Data/AppDbContext.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +22,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Roman-Kaniuka"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a25bf9b6-34b4-4ef4-89e9-4a3f25976193" />
+        <option name="url" value="https://github.com/Roman-Kaniuka/SignAndMarking.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://D:/Р/C#/myProjecks/SignAndMarking/SignAndMarking/Controllers/FeatureController.cs" root0="SKIP_HIGHLIGHTING" />
@@ -145,7 +143,7 @@
       <workItem from="1711013593192" duration="23831000" />
       <workItem from="1711098247332" duration="1084000" />
       <workItem from="1711100424174" duration="14605000" />
-      <workItem from="1711193497406" duration="3517000" />
+      <workItem from="1711193497406" duration="5596000" />
     </task>
     <servers />
   </component>

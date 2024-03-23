@@ -2,7 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\SignAndMarking",
-    "\\SignAndMarking\\Migrations"
+    "\\SignAndMarking\\Migrations",
+    "\\SignAndMarking\\Models"
   ],
   "SelectedNode": "\\SignAndMarking\\Migrations\\20240320205538_addCategoryToDataBase.cs",
   "PreviewInSolutionExplorer": false
