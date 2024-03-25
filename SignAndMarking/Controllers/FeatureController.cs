@@ -73,10 +73,12 @@ public class FeatureController : Controller
             return NotFound();
         }
         var feature = _db.Features.Find(Id);
+
         if (feature == null)
         {
             return NotFound();
         }
+
         return View(feature);
     }
 
@@ -90,10 +92,12 @@ public class FeatureController : Controller
             return NotFound();
         }
         var feature = _db.Features.Find(Id);
+
         if (feature == null)
         {
             return NotFound();
         }
+
         _db.Features.Remove(feature);
         _db.SaveChanges();
         return RedirectToAction("Index");
