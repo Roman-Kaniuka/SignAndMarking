@@ -16915,8 +16915,8 @@
     </schema>
     <schema id="5581" parent="5510" name="dbo">
       <Current>1</Current>
-      <IntrospectionTimestamp>2024-03-21.01:01:57.207</IntrospectionTimestamp>
-      <LastIntrospectionLocalTimestamp>2024-03-20.21:01:57</LastIntrospectionLocalTimestamp>
+      <IntrospectionTimestamp>2024-03-27.00:45:04.427</IntrospectionTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-03-26.20:45:04</LastIntrospectionLocalTimestamp>
       <ObjectId>1</ObjectId>
     </schema>
     <schema id="5582" parent="5510" name="guest">
@@ -16928,76 +16928,187 @@
     <table id="5584" parent="5581" name="Categories">
       <CreatedTimestamp>2024-03-21.00:57:02.243</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-03-21.00:57:02.243</ModifiedTimestamp>
+      <ModifiedTimestamp>2024-03-23.18:09:47.200</ModifiedTimestamp>
       <ObjectId>1237579447</ObjectId>
       <LobDataSpaceId>1</LobDataSpaceId>
     </table>
-    <table id="5585" parent="5581" name="__EFMigrationsHistory">
+    <table id="5585" parent="5581" name="Features">
+      <CreatedTimestamp>2024-03-22.13:34:55.250</CreatedTimestamp>
+      <DataRetentionPeriod>-1</DataRetentionPeriod>
+      <ModifiedTimestamp>2024-03-22.13:34:55.250</ModifiedTimestamp>
+      <ObjectId>1269579561</ObjectId>
+      <LobDataSpaceId>1</LobDataSpaceId>
+    </table>
+    <table id="5586" parent="5581" name="Products">
+      <CreatedTimestamp>2024-03-23.18:09:47.163</CreatedTimestamp>
+      <DataRetentionPeriod>-1</DataRetentionPeriod>
+      <ModifiedTimestamp>2024-03-23.18:09:47.207</ModifiedTimestamp>
+      <ObjectId>1301579675</ObjectId>
+      <LobDataSpaceId>1</LobDataSpaceId>
+    </table>
+    <table id="5587" parent="5581" name="__EFMigrationsHistory">
       <CreatedTimestamp>2024-03-21.00:57:02.173</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
       <ModifiedTimestamp>2024-03-21.00:57:02.173</ModifiedTimestamp>
       <ObjectId>1205579333</ObjectId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
-    <column id="5586" parent="5584" name="Id">
+    <column id="5588" parent="5584" name="Id">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <SequenceIdentity>1</SequenceIdentity>
+      <SequenceIdentity>1(23)</SequenceIdentity>
     </column>
-    <column id="5587" parent="5584" name="Name">
+    <column id="5589" parent="5584" name="Name">
       <DasType>nvarchar(max)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="5588" parent="5584" name="DisplayOrder">
+    <column id="5590" parent="5584" name="DisplayOrder">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <index id="5589" parent="5584" name="PK_Categories">
+    <index id="5591" parent="5584" name="PK_Categories">
       <Clustering>1</Clustering>
       <ColNames>Id</ColNames>
       <Position>1</Position>
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5590" parent="5584" name="PK_Categories">
+    <key id="5592" parent="5584" name="PK_Categories">
       <CreatedTimestamp>2024-03-21.00:57:02.247</CreatedTimestamp>
       <ModifiedTimestamp>2024-03-21.00:57:02.247</ModifiedTimestamp>
       <ObjectId>1253579504</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_Categories</UnderlyingIndexName>
     </key>
-    <column id="5591" parent="5585" name="MigrationId">
+    <column id="5593" parent="5585" name="Id">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(7)</SequenceIdentity>
+    </column>
+    <column id="5594" parent="5585" name="Name">
+      <DasType>nvarchar(max)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <index id="5595" parent="5585" name="PK_Features">
+      <Clustering>1</Clustering>
+      <ColNames>Id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+      <PartitionDataSpaceId>1</PartitionDataSpaceId>
+    </index>
+    <key id="5596" parent="5585" name="PK_Features">
+      <CreatedTimestamp>2024-03-22.13:34:55.270</CreatedTimestamp>
+      <ModifiedTimestamp>2024-03-22.13:34:55.270</ModifiedTimestamp>
+      <ObjectId>1285579618</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_Features</UnderlyingIndexName>
+    </key>
+    <column id="5597" parent="5586" name="Id">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(4)</SequenceIdentity>
+    </column>
+    <column id="5598" parent="5586" name="Name">
+      <DasType>nvarchar(max)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="5599" parent="5586" name="Price">
+      <DasType>float|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="5600" parent="5586" name="Description">
+      <DasType>nvarchar(max)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="5601" parent="5586" name="Image">
+      <DasType>nvarchar(max)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="5602" parent="5586" name="CategoryId">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <foreign-key id="5603" parent="5586" name="FK_Products_Categories_CategoryId">
+      <ColNames>CategoryId</ColNames>
+      <CreatedTimestamp>2024-03-23.18:09:47.200</CreatedTimestamp>
+      <ModifiedTimestamp>2024-03-23.18:09:47.200</ModifiedTimestamp>
+      <ObjectId>1333579789</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>Id</RefColNames>
+      <RefTableId>1237579447</RefTableId>
+      <RefTableName>Categories</RefTableName>
+    </foreign-key>
+    <index id="5604" parent="5586" name="PK_Products">
+      <Clustering>1</Clustering>
+      <ColNames>Id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+      <PartitionDataSpaceId>1</PartitionDataSpaceId>
+    </index>
+    <index id="5605" parent="5586" name="IX_Products_CategoryId">
+      <ColNames>CategoryId</ColNames>
+      <Position>2</Position>
+      <PartitionDataSpaceId>1</PartitionDataSpaceId>
+    </index>
+    <key id="5606" parent="5586" name="PK_Products">
+      <CreatedTimestamp>2024-03-23.18:09:47.193</CreatedTimestamp>
+      <ModifiedTimestamp>2024-03-23.18:09:47.193</ModifiedTimestamp>
+      <ObjectId>1317579732</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_Products</UnderlyingIndexName>
+    </key>
+    <column id="5607" parent="5587" name="MigrationId">
       <DasType>nvarchar(150 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="5592" parent="5585" name="ProductVersion">
+    <column id="5608" parent="5587" name="ProductVersion">
       <DasType>nvarchar(32 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <index id="5593" parent="5585" name="PK___EFMigrationsHistory">
+    <index id="5609" parent="5587" name="PK___EFMigrationsHistory">
       <Clustering>1</Clustering>
       <ColNames>MigrationId</ColNames>
       <Position>1</Position>
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5594" parent="5585" name="PK___EFMigrationsHistory">
+    <key id="5610" parent="5587" name="PK___EFMigrationsHistory">
       <CreatedTimestamp>2024-03-21.00:57:02.180</CreatedTimestamp>
       <ModifiedTimestamp>2024-03-21.00:57:02.180</ModifiedTimestamp>
       <ObjectId>1221579390</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK___EFMigrationsHistory</UnderlyingIndexName>
     </key>
-    <partition id="5595" parent="5589">
+    <partition id="5611" parent="5591">
       <ObjectId>72057594045792256</ObjectId>
       <Position>1</Position>
     </partition>
-    <partition id="5596" parent="5593">
+    <partition id="5612" parent="5595">
+      <ObjectId>72057594045857792</ObjectId>
+      <Position>1</Position>
+    </partition>
+    <partition id="5613" parent="5604">
+      <ObjectId>72057594045923328</ObjectId>
+      <Position>1</Position>
+    </partition>
+    <partition id="5614" parent="5605">
+      <ObjectId>72057594045988864</ObjectId>
+      <Position>1</Position>
+    </partition>
+    <partition id="5615" parent="5609">
       <ObjectId>72057594045726720</ObjectId>
       <Position>1</Position>
     </partition>

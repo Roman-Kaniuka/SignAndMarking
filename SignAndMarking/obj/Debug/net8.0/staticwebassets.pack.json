@@ -8517,6 +8517,10 @@
       "PackagePath": "staticwebassets\\fontawesome\\webfonts\\fa-v4compatibility.woff2"
     },
     {
+      "Id": "D:\\Р\\C#\\myProjecks\\SignAndMarking\\SignAndMarking\\wwwroot\\images\\products\\15b7f31d-a2ee-41a2-bcc3-71b27790b9bf.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\15b7f31d-a2ee-41a2-bcc3-71b27790b9bf.jfif"
+    },
+    {
       "Id": "D:\\Р\\C#\\myProjecks\\SignAndMarking\\SignAndMarking\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

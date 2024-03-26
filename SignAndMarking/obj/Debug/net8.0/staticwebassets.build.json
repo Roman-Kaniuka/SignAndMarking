@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pOh/6jwpbHWo0lHOAPoHsA84rK6UdYbdH31NC7hDp7k=",
+  "Hash": "OE5CgWKvdy3Xzq6F7IXHZ9AKvDmfGS40MtqXmmyI3Cg=",
   "Source": "SignAndMarking",
   "BasePath": "_content/SignAndMarking",
   "Mode": "Default",
@@ -40485,6 +40485,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\fontawesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Identity": "D:\\Р\\C#\\myProjecks\\SignAndMarking\\SignAndMarking\\wwwroot\\images\\products\\15b7f31d-a2ee-41a2-bcc3-71b27790b9bf.jfif",
+      "SourceId": "SignAndMarking",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Р\\C#\\myProjecks\\SignAndMarking\\SignAndMarking\\wwwroot\\",
+      "BasePath": "_content/SignAndMarking",
+      "RelativePath": "images/products/15b7f31d-a2ee-41a2-bcc3-71b27790b9bf.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\15b7f31d-a2ee-41a2-bcc3-71b27790b9bf.jfif"
     },
     {
       "Identity": "D:\\Р\\C#\\myProjecks\\SignAndMarking\\SignAndMarking\\wwwroot\\js\\site.js",

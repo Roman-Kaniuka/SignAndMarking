@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SignAndMarking")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2a83fcc2d91a8ebf847fa0d8b6bffb943ae834c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57a4228a4fc2f122b0cc097ebd3a6548c3b7a137")]
 [assembly: System.Reflection.AssemblyProductAttribute("SignAndMarking")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SignAndMarking")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
