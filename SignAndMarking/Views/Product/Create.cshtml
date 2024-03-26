@@ -1,6 +1,6 @@
-@model SignAndMarking.Models.Product
+@model SignAndMarking.Models.ViewModels.ProductVM
 <form method="post" asp-action="Create" enctype="multipart/form-data">
-    <input asp-for="Id" hidden>
+    
     <div class=" border p-3">
         <div class="form-group row">
             <h2 class="text-primary">Додати товар</h2>
@@ -9,29 +9,29 @@
             <div class="col-8">
                 <div class="form-group row mt-3">
                     <div class="col-5">
-                        <label asp-for="Name" class="h5">Назва</label>
+                        <label asp-for="Product.Name" class="h5">Назва</label>
                     </div>
                     <div class="col-7">
-                        <input asp-for="Name" class="form-control"/>
-                        <span asp-validation-for="Name" class="text-danger"></span>
+                        <input asp-for="Product.Name" class="form-control"/>
+                        <span asp-validation-for="Product.Name" class="text-danger"></span>
                     </div>
                 </div>
                 <div class="form-group row mt-3">
                     <div class="col-5">
-                        <label asp-for="Price" class="h5">Ціна</label>
+                        <label asp-for="Product.Price" class="h5">Ціна</label>
                     </div>
                     <div class="col-7">
-                        <input asp-for="Price" class="form-control">
-                        <span asp-validation-for="Price" class="text-danger"></span>
+                        <input asp-for="Product.Price" class="form-control">
+                        <span asp-validation-for="Product.Price" class="text-danger"></span>
                     </div>
                 </div>
                 <div class="form-group row mt-3">
                     <div class="col-5">
-                        <label asp-for="Description" class="h5">Повний опис</label>
+                        <label asp-for="Product.Description" class="h5">Повний опис</label>
                     </div>
                     <div class="col-7">
-                        <input asp-for="Description" class="form-control">
-                        <span asp-validation-for="Description" class="text-danger"></span>
+                        <textarea asp-for="Product.Description" class="form-control summernote" ></textarea>
+                        <span asp-validation-for="Product.Description" class="text-danger"></span>
                     </div>
                 </div>
                 <div class="form-group row mt-3">
@@ -39,33 +39,33 @@
                         <p class="h5">Image</p>
                     </div>
                     <div class="col-7">
-                        <input type="file" name="files" id="uploadBox" multiple asp-for="Image" class="form-control">
+                        <input type="file" name="files" id="uploadBox" multiple asp-for="Product.Image" class="form-control">
                     </div>
                 </div>
-                
+
                 <div class="form-group row mt-3">
                     <div class="col-5">
-                        <label asp-for="CategoryId" class="h5">Категорія</label>
+                        <label asp-for="Product.CategoryId" class="h5">Категорія</label>
                     </div>
                     <div class="col-7">
-                        <select asp-for="CategoryId" asp-items=@ViewBag.CategoryDropDown class="form-control">
+                        <select asp-for="Product.CategoryId" asp-items=@Model.CategorySelectList class="form-control">
                             <option disabled selected>--Виберіть категорію--</option>
                         </select>
-                        <span asp-validation-for="CategoryId" class="text-danger"></span>
+                        <span asp-validation-for="Product.CategoryId" class="text-danger"></span>
                     </div>
                 </div>
-                
+
                 <div class="form-group row mt-3">
                     <div class="col-9 offset-2 row">
                         <div class="col">
-                            <button type="submit" class="btn btn-outline-primary w-100">Додати</button>
+                            <button type="submit" onclick="return validateInput()" class="btn btn-outline-primary w-100">Додати</button>
                         </div>
                         <div class="col">
                             <a asp-action="Index" class="btn btn-outline-secondary w-100">Назад <i class="fa-solid fa-right-from-bracket"></i></a>
                         </div>
                     </div>
                 </div>
-                
+
             </div>
             <div class="col-4">
                 <p>
@@ -76,3 +76,38 @@
 
     </div>
 </form>
+@section Scripts
+{
+    
+     @{
+           <partial name="_ValidationScriptsPartial" />
+       }
+<script>
+
+ $(document).ready(function () {
+     $('.summernote').summernote({
+         toolbar: [
+             // [groupName, [list of button]]
+             ['style', ['bold', 'italic', 'underline', 'clear']],
+             ['font', ['strikethrough', 'superscript', 'subscript']],        
+             ['color'],
+             ['para', ['ul', 'ol',]],
+                        
+           ],
+            height:250
+     });
+ });
+
+function validateInput() {
+     if (document.getElementById("uploadBox").value == "") {
+         Swal.fire({
+           title: "Відсутнє зображення!",
+           text: "Для продовження завантажте фото!",
+           icon: "error"
+         })
+         return false;
+     }
+     return true;
+ }
+</script>
+}

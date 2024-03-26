@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using SignAndMarking.Data;
 using SignAndMarking.Models;
+using SignAndMarking.Models.ViewModels;
 
 namespace SignAndMarking.Controllers;
 
@@ -26,12 +27,14 @@ public class ProductController : Controller
     //GET
     public IActionResult Create()
     {
-        IEnumerable <SelectListItem> categoryDropDown = _db.Categories.Select(i => new SelectListItem
+        ProductVM productVM = new ProductVM
         {
-            Text = i.Name,
-            Value = i.Id.ToString(),
-        });
-        ViewBag.CategoryDropDown = categoryDropDown;
-        return View();
+            CategorySelectList = _db.Categories.Select(i => new SelectListItem
+            {
+                Text = i.Name,
+                Value = i.Id.ToString()
+            })
+        };
+        return View(productVM);
     }
 }
