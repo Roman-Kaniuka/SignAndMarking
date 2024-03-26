@@ -1,19 +1,58 @@
-@page
-@model SignAndMarking.Views.Product.Index
+@model IEnumerable<SignAndMarking.Models.Product>
 
-@{
-    Layout = null;
-}
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-9">
+            <h2 class="text-primary">Список товарів</h2>
+        </div>
+        <div class="col-3 ">
+            <a asp-controller="Product" asp-action="Create" class="btn btn-outline-info float-end mx-2">
+                <i class="fa-solid fa-plus"></i> &nbsp; Додати новий товар
+            </a>           
+        </div>
+    </div>
 
-<!DOCTYPE html>
+    <br /><br />
 
-<html>
-<head>
-    <title></title>
-</head>
-<body>
-<div>
-    
+    @if (Model.Count() > 0)
+    {
+        <table class="table  table-hover" style="width:100%">
+            <thead>
+            <tr>
+                <th >
+                    Назва товару
+                </th>
+                <th class="text-center">
+                    Ціна
+                </th>
+                <th @*class="text-center"*@ >
+                    Опис товару
+                </th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var obj in Model)
+            {
+                <tr>
+                    <td width="20%">@obj.Name</td>
+                    <td class="text-center" width="20%">@obj.Price</td>
+                    <td @*class="text-center"*@ width="60%">@obj.Description</td>
+
+                    <td>
+                        <div class="btn-group text-center float-end" role="group" aria-label="Basic mixed styles example">
+                            <a asp-controller="Product" asp-action="Edit" asp-route-id="@obj.Id" type="button" class="btn btn-outline-primary">Редагувати</a>
+                            <a asp-controller="Product" asp-action="Delete" asp-route-id="@obj.Id" type="button" class="btn btn-outline-danger">Видалити</a>
+                        </div>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p> Списо товарів пустий (No product exists)</p>
+    }
+
 </div>
-</body>
-</html>

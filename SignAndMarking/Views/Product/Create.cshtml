@@ -1,19 +1,78 @@
-@page
-@model SignAndMarking.Views.Product.CREATE
+@model SignAndMarking.Models.Product
+<form method="post" asp-action="Create" enctype="multipart/form-data">
+    <input asp-for="Id" hidden>
+    <div class=" border p-3">
+        <div class="form-group row">
+            <h2 class="text-primary">Додати товар</h2>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <div class="form-group row mt-3">
+                    <div class="col-5">
+                        <label asp-for="Name" class="h5">Назва</label>
+                    </div>
+                    <div class="col-7">
+                        <input asp-for="Name" class="form-control"/>
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row mt-3">
+                    <div class="col-5">
+                        <label asp-for="Price" class="h5">Ціна</label>
+                    </div>
+                    <div class="col-7">
+                        <input asp-for="Price" class="form-control">
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row mt-3">
+                    <div class="col-5">
+                        <label asp-for="Description" class="h5">Повний опис</label>
+                    </div>
+                    <div class="col-7">
+                        <input asp-for="Description" class="form-control">
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row mt-3">
+                    <div class="col-5">
+                        <p class="h5">Image</p>
+                    </div>
+                    <div class="col-7">
+                        <input type="file" name="files" id="uploadBox" multiple asp-for="Image" class="form-control">
+                    </div>
+                </div>
+                
+                <div class="form-group row mt-3">
+                    <div class="col-5">
+                        <label asp-for="CategoryId" class="h5">Категорія</label>
+                    </div>
+                    <div class="col-7">
+                        <select asp-for="CategoryId" asp-items=@ViewBag.CategoryDropDown class="form-control">
+                            <option disabled selected>--Виберіть категорію--</option>
+                        </select>
+                        <span asp-validation-for="CategoryId" class="text-danger"></span>
+                    </div>
+                </div>
+                
+                <div class="form-group row mt-3">
+                    <div class="col-9 offset-2 row">
+                        <div class="col">
+                            <button type="submit" class="btn btn-outline-primary w-100">Додати</button>
+                        </div>
+                        <div class="col">
+                            <a asp-action="Index" class="btn btn-outline-secondary w-100">Назад <i class="fa-solid fa-right-from-bracket"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-4">
+                <p>
+                    lxecuted uted DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30uted DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30Duted DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30uted DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30bCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[Image], [p].[Name], [p].[Price]FROM [Products] AS [p]Microsoft. EntityFrameworkCore. Database. Command [20101]Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[Image], [p].[Name], [p].[PriceFROM [Products] AS [p]
+                </p>
+            </div>
+        </div>
 
-@{
-    Layout = null;
-}
-
-<!DOCTYPE html>
-
-<html>
-<head>
-    <title></title>
-</head>
-<body>
-<div>
-    
-</div>
-</body>
-</html>
+    </div>
+</form>
