@@ -1,12 +1,13 @@
 @model SignAndMarking.Models.ViewModels.ProductVM
-<form method="post" asp-action="Create" enctype="multipart/form-data">
-    
+
+<form method="post" asp-action="Edit" enctype="multipart/form-data">
+    <input asp-for="Product.Id" hidden />
     <div class=" border p-3">
         <div class="form-group row">
-            <h2 class="text-primary">Додати товар</h2>
+            <h2 class="text-primary">Редагувати товар</h2>
         </div>
         <div class="row">
-            <div class="col-12">
+            <div class="col-8">
                 <div class="form-group row mt-3">
                     <div class="col-5">
                         <label asp-for="Product.Name" class="h5">Назва</label>
@@ -39,7 +40,7 @@
                         <p class="h5">Image</p>
                     </div>
                     <div class="col-7">
-                        <input type="file" name="files" id="uploadBox" multiple asp-for="Product.Image" class="form-control">
+                        <input type="file" name="files" multiple class="form-control" />
                     </div>
                 </div>
 
@@ -58,15 +59,18 @@
                 <div class="form-group row mt-3">
                     <div class="col-9 offset-2 row">
                         <div class="col">
-                            <button type="submit" onclick="return validateInput()" class="btn btn-outline-primary w-100">Додати</button>
+                            <button type="submit" onclick="return validateInput()" class="btn btn-outline-primary w-100">Редагувати</button>
                         </div>
                         <div class="col">
                             <a asp-action="Index" class="btn btn-outline-secondary w-100">Назад <i class="fa-solid fa-right-from-bracket"></i></a>
                         </div>
                     </div>
                 </div>
+
             </div>
-            
+            <div class="col-4">
+                <img src="@WC.ImagePath@Model.Product.Image" width="100%" style="border-radius:5px; border:1px solid #bbb">
+            </div>
         </div>
 
     </div>
@@ -93,16 +97,5 @@
      });
  });
 
-function validateInput() {
-     if (document.getElementById("uploadBox").value == "") {
-         Swal.fire({
-           title: "Відсутнє зображення!",
-           text: "Для продовження завантажте фото!",
-           icon: "error"
-         })
-         return false;
-     }
-     return true;
- }
 </script>
 }
