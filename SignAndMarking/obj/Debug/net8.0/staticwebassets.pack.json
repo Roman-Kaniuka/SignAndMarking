@@ -8517,8 +8517,12 @@
       "PackagePath": "staticwebassets\\fontawesome\\webfonts\\fa-v4compatibility.woff2"
     },
     {
-      "Id": "D:\\Р\\C#\\myProjecks\\SignAndMarking\\SignAndMarking\\wwwroot\\images\\products\\d71ec877-386a-48f7-8118-1dc9c7554caa.gif",
-      "PackagePath": "staticwebassets\\images\\products\\d71ec877-386a-48f7-8118-1dc9c7554caa.gif"
+      "Id": "D:\\Р\\C#\\myProjecks\\SignAndMarking\\SignAndMarking\\wwwroot\\images\\products\\2834809a-f490-4b6c-94a9-26b03ad21ec2.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\2834809a-f490-4b6c-94a9-26b03ad21ec2.jfif"
+    },
+    {
+      "Id": "D:\\Р\\C#\\myProjecks\\SignAndMarking\\SignAndMarking\\wwwroot\\images\\products\\ebd0cfb8-cbb5-45c7-9a2f-8f148ab69f82.gif",
+      "PackagePath": "staticwebassets\\images\\products\\ebd0cfb8-cbb5-45c7-9a2f-8f148ab69f82.gif"
     },
     {
       "Id": "D:\\Р\\C#\\myProjecks\\SignAndMarking\\SignAndMarking\\wwwroot\\js\\site.js",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sUQTBhZEJCDRnHsyw3zod1nyUDSMCfUzKB6AP+CF4qw=",
+  "Hash": "TdmVQngbmPhH/dTJO05cBtiYugpwruREnopL/S3Vq9A=",
   "Source": "SignAndMarking",
   "BasePath": "_content/SignAndMarking",
   "Mode": "Default",
@@ -40487,12 +40487,12 @@
       "OriginalItemSpec": "wwwroot\\fontawesome\\webfonts\\fa-v4compatibility.woff2"
     },
     {
-      "Identity": "D:\\Р\\C#\\myProjecks\\SignAndMarking\\SignAndMarking\\wwwroot\\images\\products\\d71ec877-386a-48f7-8118-1dc9c7554caa.gif",
+      "Identity": "D:\\Р\\C#\\myProjecks\\SignAndMarking\\SignAndMarking\\wwwroot\\images\\products\\2834809a-f490-4b6c-94a9-26b03ad21ec2.jfif",
       "SourceId": "SignAndMarking",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Р\\C#\\myProjecks\\SignAndMarking\\SignAndMarking\\wwwroot\\",
       "BasePath": "_content/SignAndMarking",
-      "RelativePath": "images/products/d71ec877-386a-48f7-8118-1dc9c7554caa.gif",
+      "RelativePath": "images/products/2834809a-f490-4b6c-94a9-26b03ad21ec2.jfif",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -40503,7 +40503,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\d71ec877-386a-48f7-8118-1dc9c7554caa.gif"
+      "OriginalItemSpec": "wwwroot\\images\\products\\2834809a-f490-4b6c-94a9-26b03ad21ec2.jfif"
+    },
+    {
+      "Identity": "D:\\Р\\C#\\myProjecks\\SignAndMarking\\SignAndMarking\\wwwroot\\images\\products\\ebd0cfb8-cbb5-45c7-9a2f-8f148ab69f82.gif",
+      "SourceId": "SignAndMarking",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Р\\C#\\myProjecks\\SignAndMarking\\SignAndMarking\\wwwroot\\",
+      "BasePath": "_content/SignAndMarking",
+      "RelativePath": "images/products/ebd0cfb8-cbb5-45c7-9a2f-8f148ab69f82.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\ebd0cfb8-cbb5-45c7-9a2f-8f148ab69f82.gif"
     },
     {
       "Identity": "D:\\Р\\C#\\myProjecks\\SignAndMarking\\SignAndMarking\\wwwroot\\js\\site.js",

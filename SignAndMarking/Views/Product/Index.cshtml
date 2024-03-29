@@ -26,7 +26,10 @@
                     Ціна
                 </th>
                 <th @*class="text-center"*@ >
-                    Опис товару
+                    Короткий опис товару
+                </th>
+                <th class="text-center" >
+                    Категорія
                 </th>
                 <th></th>
             </tr>
@@ -36,8 +39,9 @@
             {
                 <tr>
                     <td width="20%">@obj.Name</td>
-                    <td class="text-center" width="20%">@obj.Price</td>
-                    <td @*class="text-center"*@ width="60%">@obj.Description</td>
+                    <td class="text-center" width="10%">@obj.Price</td>
+                    <td width="50%">@obj.ShortDesc</td>
+                    <td class="text-center" width="20%">@obj.Category.Name</td>
 
                     <td>
                         <div class="btn-group text-center float-end" role="group" aria-label="Basic mixed styles example">
