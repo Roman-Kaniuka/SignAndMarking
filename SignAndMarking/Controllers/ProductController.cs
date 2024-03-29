@@ -20,11 +20,9 @@ public class ProductController : Controller
     // GET
     public IActionResult Index()
     {
-        IEnumerable<Product> products = _db.Products;
-        foreach (var product in products)
-        {
-            product.Category = _db.Categories.FirstOrDefault((u => u.Id == product.CategoryId));
-        }
+        IEnumerable<Product> products = _db.Products
+            .Include(u=>u.Category)
+            .Include(u=>u.Feature);
         return View(products);
     }
 
@@ -37,7 +35,12 @@ public class ProductController : Controller
             {
                 Text = i.Name,
                 Value = i.Id.ToString()
-            })
+            }),
+            FeatureSelectList = _db.Features.Select(u=> new SelectListItem
+            {
+                Text = u.Name,
+                Value = u.Id.ToString()
+            }),
         };
         return View(productVM);
     }
@@ -79,6 +82,11 @@ public class ProductController : Controller
             {
                 Text = i.Name,
                 Value = i.Id.ToString()
+            }),
+            FeatureSelectList = _db.Features.Select(u=>new SelectListItem
+            {
+                Text = u.Name,
+                Value = u.Id.ToString()
             })
         };
         return View(productVM);
@@ -131,6 +139,7 @@ public class ProductController : Controller
         }
         var product = _db.Products
             .Include(u=>u.Category)
+            .Include(u=>u.Feature)
             .FirstOrDefault(u=>u.Id==Id);
         if (product == null)
         {
@@ -139,7 +148,6 @@ public class ProductController : Controller
         
         return View(product);
     }
-    
     //POST
     [HttpPost]
     [ValidateAntiForgeryToken]
@@ -150,8 +158,7 @@ public class ProductController : Controller
         {
             return NotFound();
         }
-        string webRootPath = _webHostEnvironment.WebRootPath;
-        var upload = webRootPath + WC.ImagePath;
+        var upload = _webHostEnvironment.WebRootPath + WC.ImagePath;
         var oldFilePath = Path.Combine(upload, product.Image);
         var oldFile = new FileInfo(oldFilePath);
         if (oldFile.Exists)

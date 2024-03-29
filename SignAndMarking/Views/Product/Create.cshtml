@@ -54,6 +54,17 @@
                         <span asp-validation-for="Product.CategoryId" class="text-danger"></span>
                     </div>
                 </div>
+                <div class="form-group row mt-3">
+                    <div class="col-5">
+                        <label asp-for="Product.FeatureId" class="h5">Тип товару</label>
+                    </div>
+                    <div class="col-7">
+                        <select asp-for="Product.FeatureId" asp-items=@Model.FeatureSelectList class="form-control">
+                            <option disabled selected>--Виберіть тип--</option>
+                        </select>
+                        <span asp-validation-for="Product.FeatureId" class="text-danger"></span>
+                    </div>
+                </div>
 
                 <div class="form-group row mt-3">
                     <div class="col-9 offset-2 row">

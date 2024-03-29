@@ -26,4 +26,9 @@ public class Product
     
     [ForeignKey("CategoryId")]
     public virtual Category Category { get; set; }
+    
+    [DisplayName("Feature Type")]
+    public int FeatureId { get; set; }
+    [ForeignKey("FeatureId")]
+    public virtual Feature Feature { get; set; }
 }
