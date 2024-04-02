@@ -31,6 +31,21 @@ public class HomeController : Controller
         return View(homeVM);
     }
 
+    public IActionResult Details(int? Id)
+    {
+        DetailsVM detailsVM = new DetailsVM
+        {
+            Product = _db.Products
+                .Include(u=>u.Category)
+                .Include(u=>u.Feature)
+                .Where(u=>u.Id==Id)
+                .FirstOrDefault(),
+            ExistsInBasket = false,
+        };
+        return View(detailsVM);
+
+    }
+
     public IActionResult Privacy()
     {
         return View();
