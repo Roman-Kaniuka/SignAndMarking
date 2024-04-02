@@ -43,7 +43,6 @@ public class HomeController : Controller
             ExistsInBasket = false,
         };
         return View(detailsVM);
-
     }
 
     public IActionResult Privacy()
