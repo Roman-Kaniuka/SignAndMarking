@@ -1,21 +1,34 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using SignAndMarking.Data;
 using SignAndMarking.Models;
+using SignAndMarking.Models.ViewModels;
 
 namespace SignAndMarking.Controllers;
 
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    private readonly AppDbContext _db;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(ILogger<HomeController> logger, AppDbContext db)
     {
         _logger = logger;
+        _db = db;
     }
 
     public IActionResult Index()
     {
-        return View();
+        HomeVM homeVM = new HomeVM
+        {
+            Products = _db.Products
+                .Include(u=>u.Category)
+                .Include(u=>u.Feature),
+            Categories = _db.Categories,
+        };
+        
+        return View(homeVM);
     }
 
     public IActionResult Privacy()
