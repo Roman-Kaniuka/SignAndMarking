@@ -56,13 +56,13 @@
                                 @{
                                     var count = HttpContextAccessor.HttpContext.Session.Get<List<ShoppingBasket>>(WC.SessionBasket).Count;
                                 }
-                                <i class="fas fa-shopping-cart"></i> &nbsp; (@count)
+                               <i class="fa-solid fa-basket-shopping"></i> &nbsp; (@count)
                             </a>
                         }
                         else
                         {
                             <a href="#" class="nav-link">
-                                <i class="fas fa-shopping-cart"></i> &nbsp; (0)
+                                <i class="fa-solid fa-basket-shopping"></i> &nbsp; (0)
                             </a>
                         }
                     </li>
