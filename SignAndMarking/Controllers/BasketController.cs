@@ -28,4 +28,13 @@ public class BasketController : Controller
         IEnumerable<Product> productsList = _db.Products.Where(i => productIdBasket.Contains(i.Id));
         return View(productsList);
     }
+
+    public IActionResult Remove(int? Id)
+    {
+        List<ShoppingBasket> shoppingBasketList = HttpContext.Session.Get<List<ShoppingBasket>>(WC.SessionBasket);
+        shoppingBasketList.Remove(shoppingBasketList.FirstOrDefault(i => i.ProductId == Id));
+        HttpContext.Session.Set(WC.SessionBasket, shoppingBasketList);
+        
+        return RedirectToAction("Index");
+    }
 }
