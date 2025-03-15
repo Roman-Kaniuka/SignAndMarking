@@ -27,6 +27,8 @@ _UpgradeReport_Files/
 ###############
 bin/
 obj/
+SignAndMarking/wwwroot/fontawesome/
+SignAndMarking/wwwroot/lib/bootstrap
 .vs/
 TestResults/
 ###################
